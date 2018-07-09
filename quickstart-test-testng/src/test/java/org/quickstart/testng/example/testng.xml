@@ -1,0 +1,44 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="test-parameter">
+
+	<!-- <suite>和<test>标签定义了suite和test两种测试范围：一个test可以包含一系列的测试方法，一个suite可以包含多个独立的test。这两种测试范围有什么区别呢？一个test的所有测试方法都是针对同一测试对象，测试方法之间可以相互影响。而一个suite的每个test都是针对一个单独测试对象，两个test中的测试方法不会相互影响。 
+		在这两种测试范围定义的参数，满足如下规律： 1）在Suite范围内定义某个参数的值，对所有的Test都有效。 2）在Test范围内定义某个参数的值，只是针对该Test有效。 
+		3）如果同时在Suite和Test中定义某个参数，Test范围的值会屏蔽Suite的值。 -->
+
+	<!-- 一个suit可以包含多个test 每个test包含parameter、classes、groups parameter可以放在suit中，也可以放在test中（会覆盖suit中的参数） -->
+
+	<parameter name="username" value="root" />
+	<parameter name="password" value="pwd" />
+
+	<test name="example1">
+
+		<parameter name="username" value="root22" />
+		<parameter name="password" value="pwd22" />
+
+		<groups>
+			<run>
+				<!-- 包含多个group -->
+				<include name="login" />
+			</run>
+		</groups>
+
+		<classes>
+			<!-- 包含多个class -->
+			<class name="org.quickstart.testng.example.TestParameters" />
+		</classes>
+
+	</test>
+
+	<test name="example2">
+		<!-- <packages> -->
+		<!-- <package name="org.quickstart.testng"></package> -->
+		<!-- </packages> -->
+
+		<classes>
+			<!-- 包含多个class -->
+			<class name="org.quickstart.testng.example.TestParameters" />
+		</classes>
+	</test>
+
+</suite>
+

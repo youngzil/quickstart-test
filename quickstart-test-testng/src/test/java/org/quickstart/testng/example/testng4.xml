@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- XML文件用于运行套件测试。以下XML文件表示单元测试“TestNGTest1”和“TestNGTest2”将一起运行。 -->
+<suite name="My test suite">
+	<test name="testing">
+		<classes>
+			<class name="org.quickstart.testng.example.TestSuit" />
+			<class name="org.quickstart.testng.example.TestSuit2" />
+		</classes>
+	</test>
+</suite>

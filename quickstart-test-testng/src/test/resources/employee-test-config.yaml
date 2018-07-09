@@ -1,0 +1,7 @@
+name: Employee Suite
+threadCount: 4
+ 
+tests:
+  - name: Mocks
+    classes:
+      - org.quickstart.testng.samples.EmployeeDirectoryTest

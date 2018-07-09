@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAll">
+
+	<test name="order">
+		<groups>
+			<run>
+				<!-- 包含多个group -->
+<!-- 				<include name="save" /> -->
+				<exclude name="save" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="org.quickstart.testng.example.test.TestConfig" />
+			<class name="org.quickstart.testng.example.test.TestOrder" />
+		</classes>
+	</test>
+
+	<!-- <test name="database"> -->
+	<!-- <classes> -->
+	<!-- <class name="org.quickstart.testng.example.test.TestConfig" /> -->
+	<!-- <class name="org.quickstart.testng.example.test.TestDatabase" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+</suite>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestAll" duration-ms="27" started-at="2017-11-22T02:52:03Z" finished-at="2017-11-22T02:52:03Z">
+    <groups>
+      <group name="orderBo">
+        <method signature="TestOrder.testFindOrder()[pri:0, instance:org.quickstart.testng.example.test.TestOrder@27ce24aa]" name="testFindOrder" class="org.quickstart.testng.example.test.TestOrder"/>
+        <method signature="TestOrder.testUpdateOrder()[pri:0, instance:org.quickstart.testng.example.test.TestOrder@27ce24aa]" name="testUpdateOrder" class="org.quickstart.testng.example.test.TestOrder"/>
+      </group> <!-- orderBo -->
+    </groups>
+    <test name="order" duration-ms="27" started-at="2017-11-22T02:52:03Z" finished-at="2017-11-22T02:52:03Z">
+      <class name="org.quickstart.testng.example.test.TestConfig">
+        <test-method status="PASS" signature="testBeforeSuite()[pri:0, instance:org.quickstart.testng.example.test.TestConfig@1cbbffcd]" name="testBeforeSuite" is-config="true" duration-ms="8" started-at="2017-11-22T10:52:03Z" finished-at="2017-11-22T10:52:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeSuite -->
+        <test-method status="PASS" signature="testBeforeTest()[pri:0, instance:org.quickstart.testng.example.test.TestConfig@1cbbffcd]" name="testBeforeTest" is-config="true" duration-ms="0" started-at="2017-11-22T10:52:03Z" finished-at="2017-11-22T10:52:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeTest -->
+        <test-method status="PASS" signature="testAfterTest()[pri:0, instance:org.quickstart.testng.example.test.TestConfig@1cbbffcd]" name="testAfterTest" is-config="true" duration-ms="1" started-at="2017-11-22T10:52:03Z" finished-at="2017-11-22T10:52:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterTest -->
+        <test-method status="PASS" signature="testAfterSuite()[pri:0, instance:org.quickstart.testng.example.test.TestConfig@1cbbffcd]" name="testAfterSuite" is-config="true" duration-ms="1" started-at="2017-11-22T10:52:03Z" finished-at="2017-11-22T10:52:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterSuite -->
+      </class> <!-- org.quickstart.testng.example.test.TestConfig -->
+      <class name="org.quickstart.testng.example.test.TestOrder">
+        <test-method status="PASS" signature="testFindOrder()[pri:0, instance:org.quickstart.testng.example.test.TestOrder@27ce24aa]" name="testFindOrder" duration-ms="6" started-at="2017-11-22T10:52:03Z" finished-at="2017-11-22T10:52:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindOrder -->
+        <test-method status="PASS" signature="testUpdateOrder()[pri:0, instance:org.quickstart.testng.example.test.TestOrder@27ce24aa]" name="testUpdateOrder" duration-ms="1" started-at="2017-11-22T10:52:03Z" finished-at="2017-11-22T10:52:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateOrder -->
+      </class> <!-- org.quickstart.testng.example.test.TestOrder -->
+    </test> <!-- order -->
+  </suite> <!-- TestAll -->
+</testng-results>

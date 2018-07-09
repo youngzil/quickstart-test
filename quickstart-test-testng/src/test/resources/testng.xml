@@ -1,0 +1,24 @@
+<!-- @BeforeSuite -->
+<suite name="TestAll">
+
+    <!-- @BeforeTest -->
+    <test name="case1">
+        <classes>
+            <class name="org.quickstart.testng.before.after.TestConfiguration" />
+            <class name="org.quickstart.testng.before.after.TestDBConnection" />
+            <class name="org.quickstart.testng.before.after.DBConfig" />
+        </classes>
+    </test>
+    <!-- @AfterTest -->
+
+    <!-- @BeforeTest -->
+    <test name="case2">
+        <classes>
+            <class name="org.quickstart.testng.before.after.TestDBConnection" />
+            <class name="org.quickstart.testng.before.after.DBConfig" />
+        </classes>
+    </test>
+    <!-- @AfterTest -->
+
+</suite>
+        <!-- @AfterSuite -->

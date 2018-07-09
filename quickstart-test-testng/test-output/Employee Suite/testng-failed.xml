@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Failed suite [Employee Suite]">
+  <test name="Mocks(failed)">
+    <classes>
+      <class name="org.quickstart.testng.samples.EmployeeDirectoryTest">
+        <methods>
+          <include name="checkFirstNameFunction"/>
+        </methods>
+      </class> <!-- org.quickstart.testng.samples.EmployeeDirectoryTest -->
+    </classes>
+  </test> <!-- Mocks(failed) -->
+</suite> <!-- Failed suite [Employee Suite] -->

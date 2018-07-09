@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- 使用以下XML文件，可以仅使用组“method1”执行单元测试。 -->
+<suite name="My test suite">
+  <test name="testing">
+      <groups>
+      <run>
+        <include name="method1"/>
+      </run>
+    </groups>
+    <classes>
+       <class name="org.quickstart.testng.example.TestSuit" />
+    </classes>
+  </test>
+</suite>

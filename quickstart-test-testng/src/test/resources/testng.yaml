@@ -1,0 +1,7 @@
+name: BinarySearchSuite
+threadCount: 4
+ 
+tests:
+  - name: FindValue
+    classes:
+      - org.quickstart.testng.samples.BinarySearchTest

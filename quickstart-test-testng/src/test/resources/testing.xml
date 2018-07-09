@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="test-parameter">
+
+    <test name="example1">
+
+        <parameter name="param1" value="Hello" />
+        <parameter name="param2" value="5" />
+
+        <classes>
+            <class name="org.quickstart.testng.parameters.ParametersTest" />
+        </classes>
+
+    </test>
+
+</suite>
