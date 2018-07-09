@@ -22,13 +22,13 @@
 	</properties>
 
 	<modules>
-		<module>quickstart-test-jmeter</module>
-		<module>quickstart-test-junit</module>
-		<module>quickstart-test-loadrunner</module>
-		<module>quickstart-test-mock</module>
-		<module>quickstart-test-testng</module>
-		<module>quickstart-test-spock</module>
-		<module>quickstart-test-selenium</module>
+		<module>quickstart-jmeter</module>
+		<module>quickstart-junit</module>
+		<module>quickstart-loadrunner</module>
+		<module>quickstart-mock</module>
+		<module>quickstart-testng</module>
+		<module>quickstart-spock</module>
+		<module>quickstart-selenium</module>
 	</modules>
 
 </project>
