@@ -3,7 +3,7 @@
  * 文件名：Claculate.java
  * 版本信息：
  * 日期：2017年10月19日
- * Copyright asiainfo Corporation 2017
+ * Copyright yangzl Corporation 2017
  * 版权所有 *
  */
 package org.quickstart.junit.example;
@@ -11,7 +11,7 @@ package org.quickstart.junit.example;
 /**
  * Claculate 被测试类，通过Junit对此类的方法进行单元测试
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年10月19日 下午7:46:40
  * @since 1.0
  */

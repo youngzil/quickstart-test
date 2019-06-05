@@ -3,7 +3,7 @@
  * 文件名：JobServiceUnitTest.java
  * 版本信息：
  * 日期：2017年11月24日
- * Copyright asiainfo Corporation 2017
+ * Copyright yangzl Corporation 2017
  * 版权所有 *
  */
 package org.quickstart.mock.mockito.java8;
@@ -23,7 +23,7 @@ import org.mockito.junit.MockitoJUnitRunner;
 /**
  * JobServiceUnitTest
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年11月24日 上午11:42:46
  * @since 1.0
  */

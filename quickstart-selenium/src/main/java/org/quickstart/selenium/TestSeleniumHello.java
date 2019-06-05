@@ -3,7 +3,7 @@
  * 文件名：TestSeleniumHello.java
  * 版本信息：
  * 日期：2017年11月21日
- * Copyright asiainfo Corporation 2017
+ * Copyright yangzl Corporation 2017
  * 版权所有 *
  */
 package org.quickstart.selenium;
@@ -18,7 +18,7 @@ import org.openqa.selenium.opera.OperaDriver;
 /**
  * TestSeleniumHello http://blog.csdn.net/jinhe123/article/details/69946234
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年11月21日 上午10:00:54
  * @since 1.0
  */

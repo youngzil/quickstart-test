@@ -3,7 +3,7 @@
  * 文件名：TestOrder.java
  * 版本信息：
  * 日期：2017年11月21日
- * Copyright asiainfo Corporation 2017
+ * Copyright yangzl Corporation 2017
  * 版权所有 *
  */
 package org.quickstart.testng.example.test;
@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 /**
  * TestOrder
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年11月21日 下午5:43:21
  * @since 1.0
  */

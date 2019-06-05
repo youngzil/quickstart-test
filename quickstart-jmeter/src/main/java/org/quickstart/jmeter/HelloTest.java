@@ -3,7 +3,7 @@
  * 文件名：SendMessage.java
  * 版本信息：
  * 日期：2017年5月22日
- * Copyright asiainfo Corporation 2017
+ * Copyright yangzl Corporation 2017
  * 版权所有 *
  */
 package org.quickstart.jmeter;
@@ -16,7 +16,7 @@ import org.apache.jmeter.samplers.SampleResult;
 /**
  * SendMessage
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年5月22日 下午10:22:19
  * @version 1.0
  */

@@ -3,7 +3,7 @@
  * 文件名：ClaculateTest.java
  * 版本信息：
  * 日期：2017年10月19日
- * Copyright asiainfo Corporation 2017
+ * Copyright yangzl Corporation 2017
  * 版权所有 *
  */
 package org.quickstart.junit.example;
@@ -16,7 +16,7 @@ import org.quickstart.junit.example.Calculator;
 /**
  * http://www.cnblogs.com/qiyexue/p/6822791.html ClaculateTest junit的测试方法必须使用@Test注解 测试方法必须以public void修饰，并且不包含参数
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年10月19日 下午7:47:20
  * @since 1.0
  */

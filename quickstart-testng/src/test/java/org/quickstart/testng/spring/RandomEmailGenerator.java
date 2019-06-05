@@ -3,7 +3,7 @@
  * 文件名：RandomEmailGenerator.java
  * 版本信息：
  * 日期：2017年11月21日
- * Copyright asiainfo Corporation 2017
+ * Copyright yangzl Corporation 2017
  * 版权所有 *
  */
 package org.quickstart.testng.spring;
@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 /**
  * RandomEmailGenerator
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年11月21日 下午12:03:36
  * @since 1.0
  */

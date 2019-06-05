@@ -3,7 +3,7 @@
  * 文件名：UnemploymentServiceImpl.java
  * 版本信息：
  * 日期：2017年11月24日
- * Copyright asiainfo Corporation 2017
+ * Copyright yangzl Corporation 2017
  * 版权所有 *
  */
 package org.quickstart.mock.mockito.java8;
@@ -13,7 +13,7 @@ import java.util.Optional;
 /**
  * UnemploymentServiceImpl
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年11月24日 下午12:03:16
  * @since 1.0
  */

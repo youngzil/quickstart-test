@@ -3,7 +3,7 @@
  * 文件名：TaskTest1.java
  * 版本信息：
  * 日期：2017年10月19日
- * Copyright asiainfo Corporation 2017
+ * Copyright yangzl Corporation 2017
  * 版权所有 *
  */
 package org.quickstart.junit.suite;
@@ -13,7 +13,7 @@ import org.junit.Test;
 /**
  * TaskTest1
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年10月19日 下午7:53:56
  * @since 1.0
  */

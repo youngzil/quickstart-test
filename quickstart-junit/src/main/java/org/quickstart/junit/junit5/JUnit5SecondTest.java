@@ -3,7 +3,7 @@
  * 文件名：FirstJUnit5Tests.java
  * 版本信息：
  * 日期：2018年3月28日
- * Copyright asiainfo Corporation 2018
+ * Copyright yangzl Corporation 2018
  * 版权所有 *
  */
 package org.quickstart.junit.junit5;
@@ -21,7 +21,7 @@ import org.junit.jupiter.api.Test;
 /**
  * FirstJUnit5Tests
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年3月28日 下午4:59:47
  * @since 1.0
  */

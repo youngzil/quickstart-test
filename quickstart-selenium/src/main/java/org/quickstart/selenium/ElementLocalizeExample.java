@@ -3,7 +3,7 @@
  * 文件名：ElementLocalizeExample.java
  * 版本信息：
  * 日期：2017年11月25日
- * Copyright asiainfo Corporation 2017
+ * Copyright yangzl Corporation 2017
  * 版权所有 *
  */
 package org.quickstart.selenium;
@@ -18,7 +18,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 /**
  * ElementLocalizeExample https://www.cnblogs.com/qingchunjun/p/4208159.html
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年11月25日 下午6:20:50
  * @since 1.0
  */

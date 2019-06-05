@@ -3,7 +3,7 @@
  * 文件名：CalculatorTest.java
  * 版本信息：
  * 日期：2018年3月28日
- * Copyright asiainfo Corporation 2018
+ * Copyright yangzl Corporation 2018
  * 版权所有 *
  */
 package org.quickstart.junit.junit5;
@@ -20,7 +20,7 @@ import static org.junit.jupiter.api.Assertions.*;
 /**
  * CalculatorTest
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年3月28日 下午5:11:37
  * @since 1.0
  */

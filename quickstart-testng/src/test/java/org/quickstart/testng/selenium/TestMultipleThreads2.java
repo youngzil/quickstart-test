@@ -3,7 +3,7 @@
  * 文件名：TestMultipleThreads2.java
  * 版本信息：
  * 日期：2017年11月21日
- * Copyright asiainfo Corporation 2017
+ * Copyright yangzl Corporation 2017
  * 版权所有 *
  */
 package org.quickstart.testng.selenium;
@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 /**
  * TestMultipleThreads2
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年11月21日 上午11:56:05
  * @since 1.0
  */

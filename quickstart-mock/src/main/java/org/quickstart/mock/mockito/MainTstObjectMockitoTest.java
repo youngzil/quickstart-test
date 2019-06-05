@@ -3,7 +3,7 @@
  * 文件名：MainTstObjectMockitoTest.java
  * 版本信息：
  * 日期：2017年11月22日
- * Copyright asiainfo Corporation 2017
+ * Copyright yangzl Corporation 2017
  * 版权所有 *
  */
 package org.quickstart.mock.mockito;
@@ -23,7 +23,7 @@ import org.quickstart.mock.jmock.MayMockObject;
 /**
  * MainTstObjectMockitoTest
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年11月22日 下午8:56:18
  * @since 1.0
  */

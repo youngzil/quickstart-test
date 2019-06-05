@@ -3,7 +3,7 @@
  * 文件名：CalculatorTest.java
  * 版本信息：
  * 日期：2017年10月23日
- * Copyright asiainfo Corporation 2017
+ * Copyright yangzl Corporation 2017
  * 版权所有 *
  */
 package org.quickstart.junit.junit3;
@@ -16,7 +16,7 @@ import junit.framework.TestCase;
 /**
  * CalculatorTest
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年10月23日 下午9:10:16
  * @since 1.0
  */

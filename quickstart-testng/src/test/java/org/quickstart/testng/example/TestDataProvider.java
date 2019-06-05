@@ -3,7 +3,7 @@
  * 文件名：TestDataProvider.java
  * 版本信息：
  * 日期：2017年11月20日
- * Copyright asiainfo Corporation 2017
+ * Copyright yangzl Corporation 2017
  * 版权所有 *
  */
 package org.quickstart.testng.example;
@@ -22,7 +22,7 @@ import org.testng.annotations.Test;
 /**
  * TestDataProvider 将数据值拉入XML文件可能非常方便，但测试偶尔会需要复杂的类型，这些类型不能被表示为一个字符串或一个原始类型值。 TestNG使用@DataProvider注解来处理这种情况，这有助于将复杂参数类型映射到测试方法。
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年11月20日 下午8:32:27
  * @since 1.0
  */

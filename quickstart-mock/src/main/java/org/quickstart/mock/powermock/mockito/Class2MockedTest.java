@@ -3,7 +3,7 @@
  * 文件名：Class2MockedTest.java
  * 版本信息：
  * 日期：2017年11月23日
- * Copyright asiainfo Corporation 2017
+ * Copyright yangzl Corporation 2017
  * 版权所有 *
  */
 package org.quickstart.mock.powermock.mockito;
@@ -21,7 +21,7 @@ import org.powermock.modules.junit4.PowerMockRunner;
 /**
  * Class2MockedTest
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年11月23日 下午7:14:19
  * @since 1.0
  */

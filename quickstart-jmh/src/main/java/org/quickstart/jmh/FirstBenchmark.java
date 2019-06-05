@@ -3,7 +3,7 @@
  * 文件名：FirstBenchmark.java
  * 版本信息：
  * 日期：2018年9月14日
- * Copyright asiainfo Corporation 2018
+ * Copyright yangzl Corporation 2018
  * 版权所有 *
  */
 package org.quickstart.jmh;
@@ -24,7 +24,7 @@ import org.openjdk.jmh.runner.options.OptionsBuilder;
 /**
  * FirstBenchmark
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年9月14日 下午3:21:38
  * @since 1.0
  */

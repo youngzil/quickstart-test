@@ -3,7 +3,7 @@
  * 文件名：ParameterTest.java
  * 版本信息：
  * 日期：2017年10月19日
- * Copyright asiainfo Corporation 2017
+ * Copyright yangzl Corporation 2017
  * 版权所有 *
  */
 package org.quickstart.junit.example;
@@ -21,7 +21,7 @@ import org.junit.runners.Parameterized.Parameters;
 /**
  * ParameterTest http://www.cnblogs.com/qiyexue/p/6822791.html
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年10月19日 下午8:05:53
  * @since 1.0
  */

@@ -3,7 +3,7 @@
  * 文件名：StringBuilderBenchmark.java
  * 版本信息：
  * 日期：2018年9月14日
- * Copyright asiainfo Corporation 2018
+ * Copyright yangzl Corporation 2018
  * 版权所有 *
  */
 package org.quickstart.jmh;
@@ -22,7 +22,7 @@ import org.openjdk.jmh.annotations.Warmup;
 /**
  * StringBuilderBenchmark 
  *  
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年9月14日 下午9:51:52 
  * @since 1.0
  */

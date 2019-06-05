@@ -3,7 +3,7 @@
  * 文件名：TestRepeatThis.java
  * 版本信息：
  * 日期：2017年11月20日
- * Copyright asiainfo Corporation 2017
+ * Copyright yangzl Corporation 2017
  * 版权所有 *
  */
 package org.quickstart.testng.selenium;
@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 /**
  * TestRepeatThis
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2017年11月20日 下午9:13:07
  * @since 1.0
  */
