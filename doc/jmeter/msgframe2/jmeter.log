@@ -1,0 +1,44 @@
+2017-06-26 23:08:27,566 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2017-06-26 23:08:27,578 INFO o.a.j.JMeter: Loading user properties from: /Users/yangzl/mysoft/apache-jmeter-3.2/bin/user.properties
+2017-06-26 23:08:27,578 INFO o.a.j.JMeter: Loading system properties from: /Users/yangzl/mysoft/apache-jmeter-3.2/bin/system.properties
+2017-06-26 23:08:27,582 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2017-06-26 23:08:27,582 INFO o.a.j.JMeter: Version 3.2 r1790748
+2017-06-26 23:08:27,582 INFO o.a.j.JMeter: java.version=1.8.0_101
+2017-06-26 23:08:27,582 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2017-06-26 23:08:27,582 INFO o.a.j.JMeter: os.name=Mac OS X
+2017-06-26 23:08:27,582 INFO o.a.j.JMeter: os.arch=x86_64
+2017-06-26 23:08:27,582 INFO o.a.j.JMeter: os.version=10.12.5
+2017-06-26 23:08:27,583 INFO o.a.j.JMeter: file.encoding=UTF-8
+2017-06-26 23:08:27,583 INFO o.a.j.JMeter: Max memory     =536870912
+2017-06-26 23:08:27,583 INFO o.a.j.JMeter: Available Processors =8
+2017-06-26 23:08:27,589 INFO o.a.j.JMeter: Default Locale=中文 (中国)
+2017-06-26 23:08:27,589 INFO o.a.j.JMeter: JMeter  Locale=中文 (中国)
+2017-06-26 23:08:27,589 INFO o.a.j.JMeter: JMeterHome=/Users/yangzl/mysoft/apache-jmeter-3.2
+2017-06-26 23:08:27,589 INFO o.a.j.JMeter: user.dir  =/Users/yangzl/mysoft/apache-jmeter-3.2/bin/msgframe
+2017-06-26 23:08:27,589 INFO o.a.j.JMeter: PWD       =/Users/yangzl/mysoft/apache-jmeter-3.2/bin/msgframe
+2017-06-26 23:08:32,596 INFO o.a.j.JMeter: IP: 10.1.235.108 Name: yangzl.local FullName: yangzl.local
+2017-06-26 23:08:34,107 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.apple.laf.AquaLookAndFeel [Mac OS X, System]
+2017-06-26 23:08:34,111 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2017-06-26 23:08:35,217 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2017-06-26 23:08:35,217 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2017-06-26 23:08:35,843 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.assertions.BSFAssertion
+2017-06-26 23:08:36,257 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.extractor.BSFPostProcessor
+2017-06-26 23:08:36,284 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.modifiers.BSFPreProcessor
+2017-06-26 23:08:36,307 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-06-26 23:08:36,308 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-06-26 23:08:36,308 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-06-26 23:08:36,308 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-06-26 23:08:36,308 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2017-06-26 23:08:36,308 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2017-06-26 23:08:36,645 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2017-06-26 23:08:36,646 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/yangzl/mysoft/apache-jmeter-3.2/bin/proxyserver.jks
+2017-06-26 23:08:36,816 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.java.sampler.BSFSampler
+2017-06-26 23:08:36,850 INFO o.a.j.s.FileServer: Default base='/Users/yangzl/mysoft/apache-jmeter-3.2/bin/msgframe'
+2017-06-26 23:08:36,920 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-06-26 23:08:36,920 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler
+2017-06-26 23:08:37,034 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.timers.BSFTimer
+2017-06-26 23:08:37,057 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.visualizers.BSFListener
+2017-06-26 23:08:37,178 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2017-06-26 23:08:37,178 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2017-06-26 23:08:37,178 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2017-06-26 23:08:37,178 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000

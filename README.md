@@ -1,2 +1,9 @@
-原项目地址
-https://gitee.com/youngzil/quickstart-all
+项目地址
+https://github.com/youngzil/quickstart-test
+
+
+
+开源自动化测试解决方案 AutoLine
+https://www.oschina.net/p/autoline?from=20180520
+https://gitee.com/lym51/AutoLine
+

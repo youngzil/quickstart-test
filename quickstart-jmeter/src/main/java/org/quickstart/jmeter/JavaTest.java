@@ -30,6 +30,7 @@ public class JavaTest extends AbstractJavaSamplerClient {
 
     // 这个方法是用来自定义java方法入参的。
     // params.addArgument("num1","");表示入参名字叫num1，默认值为空。
+    @Override
     public Arguments getDefaultParameters() {
         Arguments params = new Arguments();
         params.addArgument("num1", "");
@@ -38,6 +39,7 @@ public class JavaTest extends AbstractJavaSamplerClient {
     }
 
     // 每个线程测试前执行一次，做一些初始化工作；
+    @Override
     public void setupTest(JavaSamplerContext arg0) {
         test = new MathTest();
         a = arg0.getParameter("num1");
@@ -46,6 +48,7 @@ public class JavaTest extends AbstractJavaSamplerClient {
     }
 
     // 开始测试，从arg0参数可以获得参数值；
+    @Override
     public SampleResult runTest(JavaSamplerContext arg0) {
         SampleResult sr = new SampleResult();
         sr.setSamplerData("请求参数num1：" + a + "\n请求参数num2：" + b);
@@ -70,6 +73,7 @@ public class JavaTest extends AbstractJavaSamplerClient {
     }
 
     // 测试结束时调用；
+    @Override
     public void teardownTest(JavaSamplerContext arg0) {
         end = System.currentTimeMillis();
         // 总体耗时
