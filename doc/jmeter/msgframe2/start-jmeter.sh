@@ -1,3 +1,0 @@
-# linux  
-export JVM_ARGS=-Xbootclasspath/a:lib/msgframe-test.jar:lib/msgframe-client-2.0.jar:lib/msgframe-common-2.0.jar:lib/msgframe-server-2.0.jar:lib/rocketmq-client-3.5.11.jar:lib/rocketmq-common-3.5.8.jar:lib/rocketmq-remoting-3.5.8.jar:lib/rocketmq-tools-3.5.8.jar:lib/xmlmsgframe-2.7.4.jar:lib/xbean-1.0.jar:lib/slf4j-log4j12-1.7.5.jar:lib/slf4j-api-1.7.5.jar:lib/log4j-1.2.16.jar:lib/jms-1.1.jar:lib/fastjson-1.1.46.jar:lib/netty-all-4.0.25.Final-1.0-1.0.jar:lib/
-../jmeter
