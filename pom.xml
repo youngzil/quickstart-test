@@ -27,6 +27,7 @@
 		<module>quickstart-selenium</module>
 		<module>quickstart-spock</module>
 		<module>quickstart-testng</module>
+		<module>quickstart-arquillian</module>
 	</modules>
 
 </project>
