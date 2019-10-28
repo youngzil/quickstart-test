@@ -27,7 +27,7 @@
 		<powermock.mockito.version>1.7.3</powermock.mockito.version>
 		<powermock.easymock.version>1.7.3</powermock.easymock.version>
 
-		<jmockit.version>1.36.3</jmockit.version>
+		<jmockit.version>1.48</jmockit.version>
 
 		<spring.mock.version>2.0.8</spring.mock.version>
 
@@ -172,6 +172,12 @@
 			<scope>test</scope>
 		</dependency>
 
-	</dependencies>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.9</version>
+    </dependency>
+
+  </dependencies>
 
 </project>
