@@ -29,7 +29,6 @@
 <!--			<version>4.0</version>-->
       <version>5.1.1</version>
     </dependency>
-
 	</dependencies>
 
 	<build>

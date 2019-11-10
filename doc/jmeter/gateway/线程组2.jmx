@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.1.1 r1855137">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
+      <stringProp name="TestPlan.comments"></stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="osp" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="循环控制器" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <intProp name="LoopController.loops">-1</intProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">50</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">0</stringProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="hallCommon_IMarketAcceptCSV_qryOffersAndComAndAttrInfos" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">5C7897A109CCB599C7B57685A0F6048991908A18E729710F72C9652A66FDD8BBA59E3501765C30DEF1CEC05F0A0E751264F746F6451636B9338F44D381E5258862457CBBDD27F5BDD36443139C7E45B45AD19D32650C3F7CBDBCAC26BDB32EFE</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">20.26.85.229</stringProp>
+          <stringProp name="HTTPSampler.port">21101</stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
+          <stringProp name="HTTPSampler.path">/http</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP信息头管理器" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">apiCode</stringProp>
+                <stringProp name="Header.value">hallCommon_IMarketAcceptCSV_qryOffersAndComAndAttrInfos</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">apiVersion</stringProp>
+                <stringProp name="Header.value">1.0.0</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">appCode</stringProp>
+                <stringProp name="Header.value">501080</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">format</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">pageCode</stringProp>
+                <stringProp name="Header.value">newMarket</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/x-www-form-urlencoded</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Cookie</stringProp>
+                <stringProp name="Header.value">token=a8029a4b-acd1-4fee-8dcc-87c3e4491cd5;mainAcct=F7E4C5BDE7A53CF005A11B6CD087634E </stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="1383476905">CFE95D767815230D155004A2C662CC1799F58B97D30623CDB0CA324096DD53D8380C7F179F7A7F06CEF391CCA292D60BE66373623CBAEA96AB0D1E0FEF9EBADAD7243E8ECD242BF244A6F032C10EF6817008BD83AE0671E2AF3C420ED81F740D5C8BA591562E43AD10BE4F8DDE1F66E0CA2DC1E2DDB48D08987AD0E8D302A764A3A05FD6C881BF147B83A4C7A541EF7D6D7CA3C5DA989CA873BB453670C0D547B6924373C7F7730F33A796291DACC8BD44E9A7780DD01784D7FAEF8618E3A48B77D743DD8E5164654EBE69020877502BBE08EF07EBA1C25FCCAEEF481F612FE68B590C6B801A5229C4D4323C616DEE60E101D1A9793112CE11A1EAB55DBFA269936FFB1A6C7EF8DF0866DDED40FFD480426796E5980D9C1CFF87FCC70CA4436528FA4DA390F78444DD0D0D5C2C247870118F25EDF1B87797C599C71E2351C7972094774812300D786C78044F988DEE08DCD554D84397DE08D267DA615466359502F74011A8F7256868A9C898C60E764A2599A5F135FEC1016D13D048BD44E2B0E474BEFE0F1FD5E9CA988E011A4D2171E9023D54A7635CB7804CDCA353E0F556453861060BCF9D859183F1A1504F8E4358E5637393DF43E42AD3A5EC2F66342D35013C49EFFA6BE0F219E12DF0C572B92A0CF069A491B24598C80514FBA4C4DAB7260E06F7BB4D7FC877ACCA02F072B67A934E57AC44BB8C7FD1D7CF51149E8795B39F5CBE36AEEAE1F2AE409B7CF4BF70C25545F32CE460670FFDCA890A213CA9AD7FEB21418360537BE2749B20118F191385ECB3D058C77A6D74BF0846EB00B2D9A83E5B67A55405047ECA72073834404EFC923DF940A7AFB13E8CCF58238AFD61E1C6D24B1CEF4B88EE8AB1BA550232FABA08981DC9C282EC4E12D61DC0FD35C8E6FDA85351C31B00C14D3947F7A65A34736BB80929837BB8876560F8B2B5A4B6F8B1A9C682075B3FB0F4111FB135884C25766300F9B256BC7FCD8B2154A5CB66B43CBFBF5C5503AA85B679C268315F5C012AAB280D07A9FEA14FAB5F2A242C90A6DD5CE2A1694F12AD521DC99B53BE7593608D41700935FEAABD259966FA0461A3E5F141C3E95E8B293B04F2E9ABE63E88B35EE67470B02FEF9C1A62730EFA1AF89EC13014247542F68128B482919A4FE12FFD2A5957D2A128E0FFBBCF10F38E271C6A414E990E8A881A48F76FB0EB1629BF9100FCA8DE7CA0410661A297A2FE161AF602A3C7339CD980EE00E39385A34074354FE6DB03BED0B320599499DED40CC70EEB778481FE1B241683C7935B03C84CA04FF8C7BCEA0ED3584C977D7D97E5A54E44C16ED1DFF4E42788406866B367B9376E4A6138253E7ED828D0821A71538476072E8286664B3EE8954616999385A27E302A1982BEE2FBB1F7F17360BA6F6115B450D84D448681A6E81F739A1AC96844540C365AB842FC0305DBCCE111958A7FB0D81C183B234F0EDC8432CCED7C89756D5370F55E23B35C26D4976E205D5889EB8CB3AB7827D115C746C101458A171FAD7D8BA6C2621F79F57DF7F1A541E8136E7A7A6ADFDEE61271F376E35D8CDF307262EA7D8C2FD5B0C923EC7D16F3DD470E543D5DB06F9FD9376F86A42224430CD2EE9AD282A87B075C4E9AF021FD9D4CE577B4C3050F218A3DE11EFE16F14A4B01FC43979FB6B34D85F27E57B822DBA23D39004A9AC5B66A6E0BC761EB11995E746B7308A547192ADF1CF575EB4D4AC3317253CD349EDA3990230B5D7682523BC3F55AE0C28CBD9AE77C687059BCF9D9481E7DE7A215AAEF640627ADF767C418B3D6A52909EFA90D8440D4A9F397047603A7154017A579FCF2ED2394F101AD2DBBA6FFFA156A1AA08594390C54AAFB2A1DE438FC40C03827EDD59DD2D97754CEEBB444421D20E4401BFE8157E6969FDF3AED0EBC2FDC52DED4EA56364643656A696F6EE9A72391770B218E5787E7019F54F24EDE20920FD23D444098506D7B6595266234EB765C87D981B8985B2F83EF0C5578DB396461EF77F41F88FD2AD1A0DC3902A37A6B741F8D4A5E18AA60D6CB7F1A0DC774F57D3E3E46183A5B359D2AE60942ED16AEAFB85E7976AE5A98AC03D8FA406F66B1C90EF0D0F128EBCE415303FB741B103FBDB6BDBC9EE2C7BD8486E45264B9CFC9773B760B307D7E4F0A27374BE958A9BF9953CBFFA1</stringProp>
+              <stringProp name="1639607466">CFE95D767815230D155004A2C662CC1799F58B97D30623CDB0CA324096DD53D8380C7F179F7A7F06CEF391CCA292D60BE66373623CBAEA96AB0D1E0FEF9EBADAD7243E8ECD242BF244A6F032C10EF6817008BD83AE0671E2AF3C420ED81F740D5C8BA591562E43AD10BE4F8DDE1F66E0CA2DC1E2DDB48D08987AD0E8D302A764A3A05FD6C881BF147B83A4C7A541EF7D6D7CA3C5DA989CA873BB453670C0D547B6924373C7F7730F33A796291DACC8BD44E9A7780DD01784D7FAEF8618E3A48BF25AA19CE137B225EC961BDA818604081C372110CF6FC4A81555F493F44869383ECB5FE17A592303D96FB77A8D42CAF7D26A53B1A57FD6831E3A4692C623DF4D239053100B9303014DCF48C9E2DB95426897EBFB0DE92A83A98EA1E015ECB504961315089AB118B065EE70D21F9002A253E353251B201820BFC8471A6A618CB9573FC3CE20B2E0EC316D4BE07B37294305CFF5843AA96157A4C14B0DCCBDA229DCA7D2F71243E4F5C4EA5356CA8F34EC334B73EE020457733CC93A5A3F6C38608BCBCBEEFB80B6BA8106C083A73B2A6F525096A0E37E6A4A741303A480994F6072EF94B1EDB3FCB7C61DB27F9D860814285CF5C6457B9A0D4852D54DAACE94504F42B8542A006591F1DBFB8C16AD5754877FD384C4D990C6D5A28EED0E0C73A87796C8D01AFEAB2ECDE74009424703CDA8D3833F56471BB4C58ABB7198DEAFD2B1151DDC0E18E56219DA9EEA12B23FB383B1E8D8226EB6DA18E6B96FE86EC87FFA7B173D729CBDADECE34139ACB3F5FBC1BEA85AA1AD48255C76D94966B5354A15ECF7CD314712009E31ACBA7F154749FD8197F7788EB0101F9A6BFC289291E4FE6A324E91C4DA4F26BB2FEC2EEA041A6B9A3764AA01E79A92DB1B0EDF7070DB2F0432213581A69219D3221EF131DD0EFF1CF579B40C03FB1B037DAF922850BEEC1A93A5B603F2BBB1E8213BDD49D5E2F71A385AEA2D8E9C116426C4CFCFE61DE4203C31BC3782ED7FC692ACAF6712282FD26A1FD3FFC93ED9FA2A5144F5CC8183F0B92F3457C8C9CAB7063D5DA4E10DEBA9288A05CF34D4ECCB30E4029F78D2D83AF44EE25EE1A6FEC1952D81402F556BE96AFE62BFF774D3D681E76B7533428B6BD534BBDB888FBAF3FD4B30B5C352B051583B8C732673A54C98429971510436A6340238663D299C93881E956519CAF9F812E25D5A8EE978A1716F348995F675397CDF6A1C88FA5F00ECE886B6AA3504EC114476864AAB040A548BC97E9046B487236E5284002EA218A1EB634A540BF141DF599A79AAD73E85920C6FC2D726CD7AFB47D53B5DCC2C94BBA10A6760690A64F8749E12E0674DF051BBA1F4A35A1089648F64563E319A65741103668F4F1A6BA3B69D4CD368207346E12F133D53DF8CB5D3B64AE0C2EC9BCD4FB2F72B9EBC099EDF6FABFCE6F0246A347AEA3B60B658B260C715C3F0FADDA1E345E028B38F5873F27DDBE20389A4C44562B7D69FB1B1281717A725E08CE3EE1E3446F669C8C1B91136F39FBE429F1B859BB8175594FD6B45265BF8221DF71A311793541C10EDCF55CFC2305580FAC19F440021E77E5F6A75DF1E672A9440B42A181DFC5366C33B465B646BB7BAF144A19ABA897FEB80F7F29CFCCD8C84D054D98E36876D35DA041E1D936FC0F280582CE292E5EC99334C8821523A3A4624C51205E7D6FC48B188F62AB31437E62A2CFA4D05FF2E5C54E17D3244ABFDDA8DC2FCE61467047212A23BBBB4CA059FD52FC751E2636DF35B77EB6CAA51BF09DC33C4B30B19D485D5F31C365A1E69A80921F9ED3BCFFC2A9769D7E3CA7EBC3A35D952143B9E540A2A8F94F168BB6E875A55360934B33864256BC437049F258DEEBF34DCC2DB02CC7793040C20533AA0D3E08E14C42FB0EDC85F6AAF3280729A2321B98B72C457C7164E406B82E56A19E2854B173E1A12604969F56AFA8BDAA4C19ACE906884D0FE5EFE2FDE2702A8E5DD2D657D1FF028A5D82257719354D0C611D69E9FD96AFA6BA6EE316548A28A4E753FE85E0F694C</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">40</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="hallCommon_IBusiCommCSV_getStaticInfo" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">9D181D713D7943BEB6264AE666F4A21B8193F42EA8771AAB301C680EECEDD89F</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">20.26.85.229</stringProp>
+          <stringProp name="HTTPSampler.port">21101</stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
+          <stringProp name="HTTPSampler.path">/http</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP信息头管理器" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">apiCode</stringProp>
+                <stringProp name="Header.value">hallCommon_IBusiCommCSV_getStaticInfo</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">apiVersion</stringProp>
+                <stringProp name="Header.value">1.0.0</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">appCode</stringProp>
+                <stringProp name="Header.value">501080</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">format</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">pageCode</stringProp>
+                <stringProp name="Header.value">newMarket</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/x-www-form-urlencoded</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Cookie</stringProp>
+                <stringProp name="Header.value">token=a8029a4b-acd1-4fee-8dcc-87c3e4491cd5;mainAcct=F7E4C5BDE7A53CF005A11B6CD087634E </stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="-1940444914">CFE95D767815230D155004A2C662CC1799F58B97D30623CDB0CA324096DD53D8380C7F179F7A7F06CEF391CCA292D60B3AAF3AC422F1E671EC16D8746054E0BBDE11AB0F383A620A82115C80386D5755217123A323C4BA09800405A0183802EFA6554C40E65377A52D14E5D46D8C5CD6D6FB1FC976BE473699C341ABC5959052</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">8</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+        </hashTree>
+        <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="聚合报告" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="图形结果" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="察看结果树" enabled="true">
+          <boolProp name="ResultCollector.error_logging">true</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

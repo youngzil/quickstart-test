@@ -1,3 +1,68 @@
+1、Jmeter测试命令行
+2、jmeter测试界面配置步骤
+3、jmeter组件
+4、
+5、
+6、
+7、
+8、
+9、
+
+---------------------------------------------------------------------------------------------------------------------
+Jmeter测试命令行
+
+在bin目录下启动jmeter，配置jmx文件
+sh jmeter.sh
+
+然后再主机上执行jmx生成jtl文件
+sh jmeter -n -t testplan.jmx -l test.jtl
+
+
+查看jtl文件
+1、界面：在界面使用"聚合报告"中导入jtl文件
+2、使用命令行：sh jmeter -g 6002.jtl -e -o testpath
+
+
+HTTP：
+HTTPsampler
+    HeaderManager：HTTP信息头管理器
+    CookieManager：HTTP Cookie管理器
+    ResponseAssertion：响应断言
+View Results Tree：查看结果树
+Summary Report：汇总报告
+Aggregate Report：聚合报告
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+jmeter组件
+https://jmeter.apache.org/usermanual/component_reference.html
+
+Samplers取样器：HTTP Request、Java Request、JDBC Request、JSR223 Sampler、TCP Sampler
+Listeners监听器：查看结果树（View Results Tree）、聚合报告（Aggregate Report）、汇总报告（Summary Report）
+                       
+Pre Processors前置处理器：JSR223 PreProcessor、JDBC PreProcessor
+Post-Processors后置处理器：JSR223 PreProcessor、JDBC PreProcessor
+Assertions断言
+
+Logic Controllers逻辑控制器
+Timers定时器
+Miscellaneous Features其他功能测试片段
+Configuration Elements配置元件
+
+
+
+JSR223（规范）是用于Java虚拟机（JVM）语言的标准脚本API 。JVM语言为JSR223 API提供了不同级别的支持以及与Java运行时的互操作性。当前，已知以下语言可以很好地用于openHAB脚本： Jython（JVM上的Python）， Nashorn Javascript（JDK8至10中包括的ECMAScript实现，于11中弃用）和 Apache Groovy（JVM脚本语言）。
+
+https://jcp.org/aboutJava/communityprocess/pr/jsr223/index.html
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+jmeter测试界面配置步骤
+
+
 1、在bin目录下sh jmeter.sh
 2、启动之后会有两个窗口，一个命令行控制台窗口，一个JMeter的 GUI
     命令行控制台窗口意思就是：不要使用GUI运行压力测试，GUI仅用于压力测试的创建和调试；执行压力测试请不要使用GUI。使用下面的命令来执行测试：
@@ -49,5 +114,36 @@ jmeter.save.saveservice.responseHeaders=true
 https://my.oschina.net/u/2391658/blog/3013235
 https://blog.51cto.com/xqtesting/2347422
 https://blog.csdn.net/weiyi556/article/details/85039119
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
 
 
