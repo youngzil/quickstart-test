@@ -4,7 +4,7 @@
 		<groupId>org.quickstart</groupId>
 		<artifactId>quickstart-all</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath>..</relativePath> <!-- lookup parent from repository -->
+<!--		<relativePath>..</relativePath> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
 	</parent>
 
 	<modelVersion>4.0.0</modelVersion>
@@ -28,6 +28,7 @@
 		<module>quickstart-spock</module>
 		<module>quickstart-testng</module>
 		<module>quickstart-arquillian</module>
+		<module>quickstart-moco</module>
 	</modules>
 
 </project>

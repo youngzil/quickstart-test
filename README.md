@@ -12,3 +12,13 @@ Googletest - Google Testing and Mocking Framework
 https://github.com/google/googletest
 
 
+自动化测试平台 LuckyFrameWeb 
+官网：www.luckyframe.cn
+
+
+
+敏捷测试管理软件 itest(爱测试) 
+https://www.oschina.net/p/itest-cn
+
+
+
