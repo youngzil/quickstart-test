@@ -1,5 +1,5 @@
 /**
- * 项目名称：quickstart-jmh 
+ * 项目名称：quickstart-jmh
  * 文件名：StringBuilderBenchmark.java
  * 版本信息：
  * 日期：2018年9月14日
@@ -18,12 +18,16 @@ import org.openjdk.jmh.annotations.Mode;
 import org.openjdk.jmh.annotations.OutputTimeUnit;
 import org.openjdk.jmh.annotations.Threads;
 import org.openjdk.jmh.annotations.Warmup;
+import org.openjdk.jmh.runner.Runner;
+import org.openjdk.jmh.runner.RunnerException;
+import org.openjdk.jmh.runner.options.Options;
+import org.openjdk.jmh.runner.options.OptionsBuilder;
 
 /**
- * StringBuilderBenchmark 
- *  
+ * StringBuilderBenchmark
+ *
  * @author：youngzil@163.com
- * @2018年9月14日 下午9:51:52 
+ * @2018年9月14日 下午9:51:52
  * @since 1.0
  */
 /**
@@ -61,4 +65,13 @@ public class StringBuilderBenchmark {
 
     private void print(String a) {
     }
+
+
+  public static void main(String[] args) throws RunnerException {
+    Options options = new OptionsBuilder()//
+        .include(StringBuilderBenchmark.class.getSimpleName())//
+        .output("/Users/yangzl/Benchmark.log")//
+        .build();
+    new Runner(options).run();
+  }
 }

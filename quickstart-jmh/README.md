@@ -1,3 +1,7 @@
+JMH，即Java Microbenchmark Harness，这是专门用于进行代码的微基准测试的一套工具API。
+
+
+
 JMH是一个Java工具，用于构建、运行和分析基于JVM的（纳秒/微秒/毫秒/宏）基准测试。基准测试可以用Java或其他语言编写。
 
 执行JMH基本测试建议使用Maven建立一个依赖应用jar文件的独立项目。这么做可以提供相对准确的测试结果。当然，也可以在已有项目中或者通过IDE执行基准测试。然而，这样的设置过程相对复杂，结果的可靠性也相对较低。
@@ -48,7 +52,6 @@ benchmark 结果所使用的时间单位。
 
 JMH 官方介绍
 http://openjdk.java.net/projects/code-tools/jmh/
-http://openjdk.java.net/projects/code-tools/jmh/
 JMH Samples
 http://hg.openjdk.java.net/code-tools/jmh/file/tip/jmh-samples/src/main/java/org/openjdk/jmh/samples/
 
@@ -61,10 +64,12 @@ https://github.com/google/caliper
 http://blog.dyngr.com/blog/2016/10/29/introduction-of-jmh/
 http://tutorials.jenkov.com/java-performance/jmh.html
 https://www.xncoding.com/2018/01/07/java/jmh.html
+https://blog.dyngr.com/blog/2016/10/29/introduction-of-jmh/
 
 http://tutorials.jenkov.com/java-performance/jmh.html
 https://blog.csdn.net/EatAnApple/article/details/78252098
 http://www.importnew.com/12548.html
+https://www.cnkirito.moe/java-jmh/
 
 
 示例项目
