@@ -2,6 +2,7 @@ JMH，即Java Microbenchmark Harness，这是专门用于进行代码的微基�
 
 
 
+结果（分数越低意味着速度越快）：
 
 
 

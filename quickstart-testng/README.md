@@ -1,13 +1,13 @@
 直接在xml文件上右键并且运行xml
 
-http://testng.org
-https://github.com/cbeust/testng
 
-文档：http://testng.org/doc/documentation-main.html
+[TestNG文档](https://testng.org/doc/)  
+[TestNG Github](https://github.com/cbeust/testng)  
+[Eclipse plug-in for TestNG](https://github.com/cbeust/testng-eclipse)  
 
-eclipse插件：https://github.com/cbeust/testng-eclipse
 
-教程：http://www.yiibai.com/testng/
+[TestNG教程](https://www.yiibai.com/testng/)  
+
 
 忽略测试	@Test(enbale=false)
 预期的异常 @Test(expectedExceptions = ArithmeticException.class)

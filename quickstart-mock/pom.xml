@@ -37,8 +37,7 @@
 		<testng.version>6.11</testng.version>
 		<assertj.version>1.6.1</assertj.version>
 
-<!-- 		<spring.boot.version>1.4.4.RELEASE</spring.boot.version> -->
-		<spring.boot.version>1.5.8.RELEASE</spring.boot.version>
+		<spring.boot.version>1.5.22.RELEASE</spring.boot.version>
 
 	</properties>
 

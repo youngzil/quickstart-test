@@ -1,15 +1,11 @@
-1、Jmeter测试命令行
-2、jmeter测试界面配置步骤
-3、jmeter组件
-4、
-5、
-6、
-7、
-8、
-9、
+- [Jmeter测试命令行](#Jmeter测试命令行)
+- [Jmeter组件](#Jmeter组件)
+- [Jmeter测试界面配置步骤](#Jmeter测试界面配置步骤)
+
+
 
 ---------------------------------------------------------------------------------------------------------------------
-Jmeter测试命令行
+## Jmeter测试命令行
 
 在bin目录下启动jmeter，配置jmx文件
 sh jmeter.sh
@@ -35,7 +31,7 @@ Aggregate Report：聚合报告
 
 ---------------------------------------------------------------------------------------------------------------------
 
-jmeter组件
+## Jmeter组件
 https://jmeter.apache.org/usermanual/component_reference.html
 
 Samplers取样器：HTTP Request、Java Request、JDBC Request、JSR223 Sampler、TCP Sampler
@@ -60,7 +56,7 @@ https://jcp.org/aboutJava/communityprocess/pr/jsr223/index.html
 
 ---------------------------------------------------------------------------------------------------------------------
 
-jmeter测试界面配置步骤
+## Jmeter测试界面配置步骤
 
 
 1、在bin目录下sh jmeter.sh
@@ -114,26 +110,6 @@ jmeter.save.saveservice.responseHeaders=true
 https://my.oschina.net/u/2391658/blog/3013235
 https://blog.51cto.com/xqtesting/2347422
 https://blog.csdn.net/weiyi556/article/details/85039119
-
-
----------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
----------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
 
 
 

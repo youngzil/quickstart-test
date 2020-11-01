@@ -1,10 +1,12 @@
-https://jmeter.apache.org/
-https://github.com/apache/jmeter
+[JMeter官网](https://jmeter.apache.org/)  
+[JMeter Github](https://github.com/apache/jmeter)  
+[JMeter SVN地址](https://svn.apache.org/repos/asf/jmeter/trunk/)  
+[JMeter构建](https://jmeter.apache.org/building.html)  
+
+[JMeter插件](https://jmeter-plugins.org/?search=jpgc-json)  
 
 
-https://svn.apache.org/repos/asf/jmeter/trunk
- https://jmeter.apache.org/building.html
-Jmeter插件：https://jmeter-plugins.org/?search=jpgc-json
+
 
 public Arguments getDefaultParameters();设置可用参数及的默认值；
 public void setupTest(JavaSamplerContext arg0)：每个线程测试前执行一次，做一些初始化工作；
