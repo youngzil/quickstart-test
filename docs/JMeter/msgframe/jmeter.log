@@ -14,8 +14,8 @@
 2017-06-26 23:08:27,589 INFO o.a.j.JMeter: Default Locale=中文 (中国)
 2017-06-26 23:08:27,589 INFO o.a.j.JMeter: JMeter  Locale=中文 (中国)
 2017-06-26 23:08:27,589 INFO o.a.j.JMeter: JMeterHome=/Users/yangzl/mysoft/apache-jmeter-3.2
-2017-06-26 23:08:27,589 INFO o.a.j.JMeter: user.dir  =/Users/yangzl/mysoft/apache-jmeter-3.2/bin/msgframe
-2017-06-26 23:08:27,589 INFO o.a.j.JMeter: PWD       =/Users/yangzl/mysoft/apache-jmeter-3.2/bin/msgframe
+2017-06-26 23:08:27,589 INFO o.a.j.JMeter: user.dir  =/Users/yangzl/mysoft/apache-jmeter-3.2/bin/msgtest
+2017-06-26 23:08:27,589 INFO o.a.j.JMeter: PWD       =/Users/yangzl/mysoft/apache-jmeter-3.2/bin/msgtest
 2017-06-26 23:08:32,596 INFO o.a.j.JMeter: IP: 10.1.235.108 Name: yangzl.local FullName: yangzl.local
 2017-06-26 23:08:34,107 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.apple.laf.AquaLookAndFeel [Mac OS X, System]
 2017-06-26 23:08:34,111 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
@@ -33,7 +33,7 @@
 2017-06-26 23:08:36,645 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
 2017-06-26 23:08:36,646 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/yangzl/mysoft/apache-jmeter-3.2/bin/proxyserver.jks
 2017-06-26 23:08:36,816 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.java.sampler.BSFSampler
-2017-06-26 23:08:36,850 INFO o.a.j.s.FileServer: Default base='/Users/yangzl/mysoft/apache-jmeter-3.2/bin/msgframe'
+2017-06-26 23:08:36,850 INFO o.a.j.s.FileServer: Default base='/Users/yangzl/mysoft/apache-jmeter-3.2/bin/msgtest'
 2017-06-26 23:08:36,920 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
 2017-06-26 23:08:36,920 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler
 2017-06-26 23:08:37,034 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.timers.BSFTimer

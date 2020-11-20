@@ -52,7 +52,6 @@ public class EmptyStringEquals {
 
   public static void main(String[] args) throws RunnerException {
 
-    Path.of("");
     Paths.get("");
 
     Options opt = new OptionsBuilder()//

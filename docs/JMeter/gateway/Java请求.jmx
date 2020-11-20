@@ -40,7 +40,7 @@
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="classname">com.ai.aif.gateway.test.ServiceInvocationTest3</stringProp>
+          <stringProp name="classname">com.ai.test.gateway.test.ServiceInvocationTest3</stringProp>
         </JavaSampler>
         <hashTree/>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="察看结果树" enabled="true">

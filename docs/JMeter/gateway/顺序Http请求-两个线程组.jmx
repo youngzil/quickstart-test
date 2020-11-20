@@ -44,7 +44,7 @@
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">aifgatewaytest.zj.chinamobile.com</stringProp>
+          <stringProp name="HTTPSampler.domain">gateway.quickstart.com</stringProp>
           <stringProp name="HTTPSampler.port">20150</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -133,7 +133,7 @@
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">aifgatewaytest.zj.chinamobile.com</stringProp>
+          <stringProp name="HTTPSampler.domain">gateway.quickstart.com</stringProp>
           <stringProp name="HTTPSampler.port">20150</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -248,7 +248,7 @@ props.put(&quot;name&quot;,sessId);</stringProp>
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">aifgatewaytest.zj.chinamobile.com</stringProp>
+          <stringProp name="HTTPSampler.domain">gateway.quickstart.com</stringProp>
           <stringProp name="HTTPSampler.port">20150</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>

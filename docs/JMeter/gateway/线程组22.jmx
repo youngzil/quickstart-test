@@ -205,7 +205,7 @@
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">aifgatewaytest.zj.chinamobile.com</stringProp>
+          <stringProp name="HTTPSampler.domain">gateway.quickstart.com</stringProp>
           <stringProp name="HTTPSampler.port">20150</stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
@@ -276,7 +276,7 @@
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">aifgatewaytest.zj.chinamobile.com</stringProp>
+          <stringProp name="HTTPSampler.domain">gateway.quickstart.com</stringProp>
           <stringProp name="HTTPSampler.port">20150</stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>

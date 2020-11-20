@@ -36,7 +36,7 @@
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="classname">com.ai.aif.msgframe.example.jmeter.sendMessage1k</stringProp>
+          <stringProp name="classname">com.ai.test.msgtest.example.jmeter.sendMessage1k</stringProp>
         </JavaSampler>
         <hashTree/>
         <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="聚合报告" enabled="true">
