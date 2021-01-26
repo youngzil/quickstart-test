@@ -23,3 +23,18 @@ https://blog.csdn.net/wanglin_lin/article/details/77963931
 https://blog.csdn.net/songer_xing/article/details/53747784?locationNum=2&fps=1
 最近在做接口自动化测试，之前一直在postman、soupui、jmeter之间选型
 
+
+
+
+
+
+[Jmeter从入门到精通（详解教程）](https://cloud.tencent.com/developer/inventory/1923)  
+
+
+jmeter如何监控服务器CPU、内存、i/o等资源
+
+[jmeter如何监控服务器CPU、内存、i/o等资源](https://blog.csdn.net/futudeniaodan/article/details/86720081)  
+[使用jmeter监控服务器CPU、内存、i/o等资源](https://blog.csdn.net/zin521/article/details/85195758)  
+[图表分析，Jmeter还有这种功能？](https://cloud.tencent.com/developer/article/1543572)  
+
+
