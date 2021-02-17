@@ -25,6 +25,7 @@
 
     <!-- Junit3的package是junit.framework，而Junit4是org.junit。 -->
     <!-- 		<junit.version>3.8.2</junit.version> -->
+    <junit5.version>5.7.1</junit5.version>
   </properties>
 
   <dependencies>
@@ -76,19 +77,19 @@
     <dependency>
       <groupId>org.junit.platform</groupId>
       <artifactId>junit-platform-launcher</artifactId>
-      <version>1.1.0</version>
+      <version>1.7.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-engine</artifactId>
-      <version>5.1.0</version>
+      <version>${junit5.version}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.junit.vintage</groupId>
       <artifactId>junit-vintage-engine</artifactId>
-      <version>5.1.0</version>
+      <version>${junit5.version}</version>
       <scope>test</scope>
     </dependency>
 
