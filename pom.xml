@@ -41,7 +41,7 @@
 	<modules>
 		<module>quickstart-jmeter</module>
 		<module>quickstart-jmh</module>
-		<module>quickstart-junit5</module>
+		<module>quickstart-junit</module>
 		<module>quickstart-loadrunner</module>
 		<module>quickstart-mock</module>
 		<module>quickstart-selenium</module>
