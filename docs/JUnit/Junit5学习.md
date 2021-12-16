@@ -3,6 +3,7 @@
 [JUnit5文档](https://junit.org/junit5/docs/current/user-guide/)  
 [JUnit5 API文档](https://junit.org/junit5/docs/current/api/)  
 [JUnit5 Samples](https://github.com/junit-team/junit5-samples)  
+[Junit 5官方文档中文版](https://doczhcn.gitbook.io/junit5/index/index-1/dependency-metadata-junit-jupiter-samples)
 
 
 junit5:Group ID: org.junit.jupiter
